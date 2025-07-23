@@ -2,19 +2,19 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <nav className="bg-white w-full z-20 top-0 start-0 border-b border-gray-200 sticky">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-white w-full z-20 top-0 start-0 border-b border-gray-200 sticky h-16">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 h-full">
         <a
           href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="flex items-center space-x-3 rtl:space-x-reverse h-full"
         >
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
+            src="/images/logo.png"
+            className="h-full w-auto max-w-[56px] object-contain"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
-            Flowbite
+          <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#764BC3]">
+            CopyUI
           </span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
