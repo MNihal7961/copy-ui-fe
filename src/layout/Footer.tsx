@@ -3,7 +3,7 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-white border-t border-gray-200">
-      <div className="max-w-screen-xl md:flex md:items-center md:justify-between md:p-6 p-4 mx-auto">
+      <div className="max-w-[1600px] md:flex md:items-center md:justify-between md:p-6 p-4 mx-auto">
         <span className="text-sm text-gray-500 sm:text-center">
           © 2023{" "}
           <a href="https://flowbite.com/" className="hover:underline">
