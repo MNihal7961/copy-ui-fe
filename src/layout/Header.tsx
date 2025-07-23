@@ -3,7 +3,7 @@ import React from "react";
 const Header: React.FC = () => {
   return (
     <nav className="bg-white w-full z-20 top-0 start-0 border-b border-gray-200 sticky h-16">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 h-full">
+      <div className="max-w-[1600px] flex flex-wrap items-center justify-between mx-auto px-4 h-full">
         <a
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse h-full"
