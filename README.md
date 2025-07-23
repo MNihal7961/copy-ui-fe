@@ -27,7 +27,7 @@ A collection of reusable, visually consistent UI components built with **React**
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/copyui.git
+git clone https://github.com/MNihal7961/copy-ui-fe.git
 cd copyui
 ```
 
