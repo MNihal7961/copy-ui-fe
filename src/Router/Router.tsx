@@ -7,6 +7,7 @@ import About from "../Pages/About/About";
 import GettingStarted from "../Pages/GettingStarted/GettingStarted";
 import ComponentPage from "../Pages/ComponentPage/ComponentPage";
 import AccordionPage from "../Pages/AccordionPage/AccordionPage";
+import NotFound from "../Pages/NotFound/NotFound";
 
 const Router: React.FC = () => {
   return (
@@ -19,6 +20,8 @@ const Router: React.FC = () => {
         <Route path="getting-started" element={<GettingStarted />} />
         <Route path="components" element={<ComponentPage />} />
         <Route path="accordion" element={<AccordionPage />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="not-found" element={<NotFound />} />
       </Route>
     </Routes>
   );
