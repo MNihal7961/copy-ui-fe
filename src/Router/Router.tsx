@@ -18,8 +18,12 @@ const Router: React.FC = () => {
         <Route path="how-to-use" element={<HowToUse />} />
         <Route path="about" element={<About />} />
         <Route path="getting-started" element={<GettingStarted />} />
+
+        {/* Components */}
         <Route path="components" element={<ComponentPage />} />
         <Route path="accordion" element={<AccordionPage />} />
+
+        {/* Not Found */}
         <Route path="*" element={<NotFound />} />
         <Route path="not-found" element={<NotFound />} />
       </Route>
