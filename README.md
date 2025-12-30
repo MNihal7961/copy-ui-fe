@@ -1,6 +1,6 @@
 # CopyUI
 
-[![Live Preview](https://img.shields.io/badge/Live%20Preview-Online-brightgreen)](https://your-live-preview-url.com)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Online-brightgreen)](https://copy-ui-fe.vercel.app/)
 
 A collection of reusable, visually consistent UI components built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **CSS**. CopyUI allows users to browse, preview, and copy the code for each component—just copy and paste, no installation required! All components are easily customizable to fit your needs, and the project is fully open source.
 
