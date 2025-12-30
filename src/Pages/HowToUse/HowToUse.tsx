@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HowToUse = () => {
+const HowToUse: React.FC = () => {
   return (
     <div>HowToUse</div>
   )

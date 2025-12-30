@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ComponentPage = () => {
+const ComponentPage: React.FC = () => {
   return (
     <div>ComponentPage</div>
   )

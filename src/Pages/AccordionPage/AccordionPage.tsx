@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AccordionPage = () => {
+const AccordionPage: React.FC = () => {
   return (
     <div>AccordionPage</div>
   )

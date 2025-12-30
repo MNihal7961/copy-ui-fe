@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GettingStarted = () => {
+const GettingStarted: React.FC = () => {
   return (
     <div>GettingStarted</div>
   )
