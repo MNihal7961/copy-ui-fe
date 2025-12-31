@@ -4,7 +4,6 @@ import Home from "../Pages/Home/Home";
 import Dashboard from "../Dashboard/Dashboard";
 import HowToUse from "../Pages/HowToUse/HowToUse";
 import About from "../Pages/About/About";
-import GettingStarted from "../Pages/GettingStarted/GettingStarted";
 import ComponentPage from "../Pages/ComponentPage/ComponentPage";
 import AccordionPage from "../Pages/AccordionPage/AccordionPage";
 import NotFound from "../Pages/NotFound/NotFound";
@@ -26,10 +25,8 @@ const Router: React.FC = () => {
     <Routes>
       <Route path="/" element={<Dashboard />}>
         <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
         <Route path="how-to-use" element={<HowToUse />} />
         <Route path="about" element={<About />} />
-        <Route path="getting-started" element={<GettingStarted />} />
 
         {/* Components */}
         <Route path="components" element={<ComponentPage />} />
