@@ -1,18 +1,9 @@
 export const navigationData = {
   navMain: [
     {
-      title: "Getting Started",
-      url: "/getting-started",
-      items: [
-        {
-          title: "How to use",
-          url: "/how-to-use",
-        },
-        {
-          title: "About Copy UI",
-          url: "/about",
-        },
-      ],
+      title: "Home",
+      url: "/",
+      items: [],
     },
     {
       title: "Components",
