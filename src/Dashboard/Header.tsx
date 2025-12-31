@@ -15,7 +15,7 @@ import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 const Header: React.FC = () => {
     const breadcrumbs = useBreadcrumbs();  
   return (
-    <header className="flex h-16 shrink-0 items-center gap-2 border-b">
+    <header className="sticky top-0 z-50 flex h-16 shrink-0 items-center gap-2 border-b bg-background">
       <div className="flex items-center gap-2 px-3">
         <SidebarTrigger />
         <Separator orientation="vertical" className="mr-2 h-4" />
