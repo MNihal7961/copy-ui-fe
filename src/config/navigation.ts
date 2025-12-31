@@ -73,7 +73,7 @@ export const navigationData = {
       ],
     },
     {
-      title: "API Reference",
+      title: "UI Blocks",
       url: "#",
       items: [
         {
@@ -103,7 +103,7 @@ export const navigationData = {
       ],
     },
     {
-      title: "Architecture",
+      title: "Layouts",
       url: "#",
       items: [
         {
