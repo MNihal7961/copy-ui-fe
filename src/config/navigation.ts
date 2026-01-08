@@ -1,18 +1,9 @@
 export const navigationData = {
   navMain: [
     {
-      title: "Getting Started",
-      url: "/getting-started",
-      items: [
-        {
-          title: "How to use",
-          url: "/how-to-use",
-        },
-        {
-          title: "About Copy UI",
-          url: "/about",
-        },
-      ],
+      title: "Home",
+      url: "/",
+      items: [],
     },
     {
       title: "Components",
@@ -73,7 +64,7 @@ export const navigationData = {
       ],
     },
     {
-      title: "API Reference",
+      title: "UI Blocks",
       url: "#",
       items: [
         {
@@ -103,7 +94,7 @@ export const navigationData = {
       ],
     },
     {
-      title: "Architecture",
+      title: "Layouts",
       url: "#",
       items: [
         {
