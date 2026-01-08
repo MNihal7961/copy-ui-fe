@@ -1,7 +1,6 @@
 import { AppSidebar } from "../Components/app-sidebar";
 import { SidebarInset, SidebarProvider } from "../Components/ui/sidebar";
 import { Outlet } from "react-router-dom";
-import Footer from "./Footer";
 import Header from "./Header";
 
 export default function Dashboard() {
@@ -13,7 +12,6 @@ export default function Dashboard() {
         <div className="flex flex-1 flex-col gap-4 p-4">
           <Outlet />
         </div>
-        <Footer />
       </SidebarInset>
     </SidebarProvider>
   );
